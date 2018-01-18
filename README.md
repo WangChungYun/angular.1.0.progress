@@ -1,15 +1,13 @@
 
-chunyunloading.js
-
+## chunyunloading.js
 交流QQ：2394473986
 
-Demo
-
+## Demo
 <loading-view></loading-view>
 
 'use strict';
 angular.module('demoApp', [
-    'chunyun.loading.module'
+    'chunyun.loading.module',
 ])
     .controller('DemoControllers', ['$loadingViewService', '$http',
         function ( $loadingViewService, $http) {
