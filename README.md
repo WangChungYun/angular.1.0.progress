@@ -3,6 +3,7 @@
 交流QQ：2394473986
 
 ## Demo
+```
 <loading-view></loading-view>
 
 'use strict';
@@ -20,3 +21,4 @@ angular.module('demoApp', [
             }
 
     }]);
+```
