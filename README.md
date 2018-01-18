@@ -1,3 +1,4 @@
+
 chunyunloading.js
 
 交流QQ：2394473986
@@ -8,7 +9,7 @@ Demo
 
 'use strict';
 angular.module('demoApp', [
-    'chunyun.loading.module',
+    'chunyun.loading.module'
 ])
     .controller('DemoControllers', ['$loadingViewService', '$http',
         function ( $loadingViewService, $http) {
